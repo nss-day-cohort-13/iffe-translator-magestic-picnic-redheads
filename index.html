@@ -12,12 +12,13 @@
 			<label>Language Translator</label>
 			<textarea id="userinput" name="User Input" cols="20" rows="10"></textarea>
 			<select>
-				<option value="Select Language">Select Language</option>
-				<option value="Greek">Greek</option>
-				<option value="Japanese">Japanese</option>
-				<option value="Latin">Latin</option>
+				<div>
+					<option selected="selected" value="1">Greek</option>
+					<option value="2">Japanese</option>
+					<option value="3">Latin</option>
+				</div>
 			</select>
-			<button id="translate" type="button" onclick="translate()">Translate</button>
+			<button id="translate" type="button" onclick="getTextArea()">Translate</button>
 			<div id="output">
 				<p>Here is the div</p>
 			</div>

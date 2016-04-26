@@ -1,4 +1,4 @@
-translate = (function(){
+translate = (function(word){
 	var latinLexicon = {
 		"happy": "laeta",
 	};

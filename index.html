@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Translator</title>
+	<link rel="stylesheet" href="basic.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<label>Language Translator</label>
+			<textarea id="userinput" name="User Input" cols="20" rows="10"></textarea>
+			<select>
+				<option value="Select Language">Select Language</option>
+				<option value="Greek">Greek</option>
+				<option value="Japanese">Japanese</option>
+				<option value="Latin">Latin</option>
+			</select>
+			<button id="translate" type="button" onclick="translate()">Translate</button>
+			<div id="output">
+				<p>Here is the div</p>
+			</div>
+		</fieldset>
+	</form>
+	<script src="translate.js" type="text/javascript" charset="utf-8"></script>
+	<script src="translateToGreek.js" type="text/javascript" charset="utf-8"></script>
+	<script src="translateToJapanese.js" type="text/javascript" charset="utf-8"></script>
+	<script src="translateToLatin.js" type="text/javascript" charset="utf-8"></script>
+	<script src="dom.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

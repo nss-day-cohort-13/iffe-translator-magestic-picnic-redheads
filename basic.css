@@ -5,23 +5,33 @@
 #userinput {
 	border: 1px solid black;
 	display: inline-block;
+	min-width: 20%;
+	max-height: 95%;
+
 }
 
 #dropDownMenu {
 	position: fixed;
-	left: 480px;
+	right: 50%;
+	left: 45%;
 	top: 50px;
+	max-width: 15%;
 }
 
 #translate {
 	position: fixed;
-	left: 500px;
+	right: 50%;
+	left: 45%;
 	top: 130px;
+	min-width: 6%;
 }
 
 #output {
 	border: 1px solid black;
 	position: fixed;
-	right: 200px;
+	right: 5%;
 	top: 50px;
+	max-width: 30%;
+	max-height: 95%;
+	text-justify: justify;
 }

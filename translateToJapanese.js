@@ -1,6 +1,6 @@
 translate = (function(word){
-  var JapaneseLexicon = {
-    "happy": "happi",
+  var japaneseLexicon = {
+    "merry": "メリ", "christmas": "クリスマス"
   };
   translate.getJapaneseWord = function(){
     return japaneseLexicon;

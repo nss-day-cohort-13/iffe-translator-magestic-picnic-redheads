@@ -21,3 +21,16 @@ Find a way to write your IIFEs so that it doesn't matter whose module gets creat
 Optional Bonus 2
 
 In addition to inserting the translated text into the HTML document, have the browser read the translated text to the user.
+
+Phrases you can translate:
+
+Greek
+happy birthday you are old
+happy mothers day to the best dog mom in the world
+happy valentines day let's netflix and chill
+
+Latin
+i know you are canadian but it is the fourth of july merica
+
+Japanese
+merry christmas

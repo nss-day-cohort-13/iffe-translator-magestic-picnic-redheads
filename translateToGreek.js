@@ -1,6 +1,6 @@
 translate = (function(word){
   var greekLexicon = {
-    "happy": "kalo",
+    "happy": "kalo"
   };
   translate.getGreekWord = function(){
     return greekLexicon;

@@ -24,7 +24,12 @@ function selectedLanguage() {
 
 function translationText(userText, language) {
   var translatedText = userText.map(function(value){
+    var translation = document.getElementById("output");
+    translation.innerHTML = "<p>" + language[value] + "</p>";
+    console.log(language[value]);
     return language[value];
   });
 }
+
+
 

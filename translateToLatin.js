@@ -1,4 +1,4 @@
-translate = (function(word){
+var translate = (function(translate){
 	var latinLexicon = {
 		"i": "Ego",
 		"know": "scitis",
@@ -6,7 +6,7 @@ translate = (function(word){
 		"you": "vos",
 		"are": "sunt",
 		"canadian": "Canadian",
-		"but": "but",
+		"but": "sed",
 		"it's": "Illud",
 		"it": "quod",
 		"is": "est",
@@ -20,5 +20,5 @@ translate = (function(word){
 	translate.getLatinWord = function(){
 		return latinLexicon;
 	};
-	return word;
+	return translate;
 })(translate);

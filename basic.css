@@ -1,0 +1,27 @@
+#container {
+	position: relative;
+}
+
+#userinput {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+#dropDownMenu {
+	position: fixed;
+	left: 480px;
+	top: 50px;
+}
+
+#translate {
+	position: fixed;
+	left: 500px;
+	top: 130px;
+}
+
+#output {
+	border: 1px solid black;
+	position: fixed;
+	right: 200px;
+	top: 50px;
+}

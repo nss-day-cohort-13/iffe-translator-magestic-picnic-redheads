@@ -9,15 +9,14 @@
 <body>
 	<form>
 		<fieldset>
-			<label>Language Translator</label>
+			<legend>Language Translator</legend>
 			<textarea id="userinput" name="User Input" cols="20" rows="10"></textarea>
-			<select>
-				<option value="Select Language">Select Language</option>
-				<option value="Greek">Greek</option>
-				<option value="Japanese">Japanese</option>
-				<option value="Latin">Latin</option>
+			<select id="dropDownMenu">
+				<option value="greek">Greek</option>
+				<option value="japanese">Japanese</option>
+				<option value="latin">Latin</option>
 			</select>
-			<button id="translate" type="button" onclick="translate()">Translate</button>
+			<button id="translate" type="button" onclick="getTextArea()">Translate</button>
 			<div id="output">
 				<p>Here is the div</p>
 			</div>
